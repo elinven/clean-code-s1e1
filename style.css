@@ -107,8 +107,7 @@ li {
 li > * {
   vertical-align: middle;
 }
-
-li > input[type="checkbox"] {
+.check-box {
   margin: 0 10px;
 }
 li > label {
@@ -117,7 +116,7 @@ li > label {
   font-size: 18px;
   width: 226px;
 }
-li > input[type="text"] {
+.task {
   width: 226px;
 }
 button.delete img {
