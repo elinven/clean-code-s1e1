@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -35,12 +35,12 @@ body {
 .task-row-wrapper {
   display: flex;
 }
-ul {
+.list {
   margin: 0;
   padding: 0px;
 }
 li,
-h3 {
+.status {
   list-style: none;
 }
 input,
@@ -60,7 +60,7 @@ button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
+.status,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
