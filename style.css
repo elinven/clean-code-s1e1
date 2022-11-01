@@ -18,10 +18,13 @@
 }
 
 @media (max-width: 768px) {
+
   .eisenhower-matrix {
     text-align: center;
   }
+
 }
+
 .centered-element {
   display: block;
   width: 500px;
@@ -59,6 +62,7 @@ button {
 button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .status,
 label[for="new-task"] {
